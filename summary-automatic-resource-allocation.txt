@@ -1,0 +1,149 @@
+Introduction:
+Resource allocation aims at ensuring that each activity of a certain process case (i.e., a task) is executed at the right time and with the right resources.
+
+
+Phase 1: Plan Review
+
+
+<Step 1: Specify research questions>
+During the execution of manifold business processes, upcoming process tasks need to be allocated to internal resources. Resource allocation aims at ensuring that each activity of a certain process case is excuted at the right time and with the right resources.
+Existing literature studies in the area of resource allocations in business processes either focus on resource management in more general, have studied less works, or did not discuss in detail the targeted resource allocation problems and solution approaches. Thus, in this study, we want to fill this gap and provide a detailed review of automatic approaches for resource allocation in business processes by discussing their capabilities, optimizations goals, input data, applied techniques, evaluation, and available prototypes.
+
+
+The different type of algorithmic approaches to support the resource allocation, and the role of process models and data for them will be analyzed in this study.
+
+Question: What is the state-of-the-art of automatic approaches supporting resource allocation in business processes?
+Divided into 4 sub-questions:
+(1) What are the targeted resource allocation goals and capabilities?
+(2) What is the role of process models and process data (in form of event logs) in the resource allocation approach?
+(3) Which input data are used by the different approaches supporting the resource allocation in business processes?
+(4) Which solution strategies are used and are the approaches following a local or global optimization?
+(5) How mature are the proposed resource allocation approaches in terms of applicability and the availability of an implementation and their evaluation?
+
+<Step 2: Develop review protocol>
+The search for studies was split into 2 phases: a primary search and a secondary search.
+Primary search: research databases were queried with a predefined set of search terms concerning the abstract, title and keywords. The resulting set of studies was reviewed to identify a core set of actual relevant studies.
+Secondary search: This core set was then used to conduct a backward and forward search to find additional relevant studies in order to maximize the completeness of the search.
+
+[[1]] Strategiy for searching for primary studies
+[1]Search terms: general search term: (RESOURCE OR TASK) x ALLOCATION x BUSINESS PROCESS OR PROCESS MINING)
+[2]Resources to be searched:
+<databases>: ACM Digital Library, IEEE Xplore, SciVerse Scopus and Web of Science.
+<Journals/conference proceedings>:
+Not specified. However the focus is on journal papers, which are usually more detailed and of high quality. Short conference papers are included during the backward and forward search.
+
+[[2]] Criteria for including in or excluding a study from system literature review
+
+search process
+start  --> 2419
+[1] Remove duplicates with literature manager tool Citavi. --> 1619
+[2] Filter for journal articles --> 769
+[3] Remove duplicates manually --> 766
+[4] Select relevant studies and abstract --> 43 
+[5] Run forward and backward search  --> 79
+[6] Add relevant studies of last two years --> 83
+[7] Select relevant studies on full-text --> 49
+
+from step 3, the literatures are checked independently by two authors of this paper for their relevance based on title and abstract and with  help of criteria 3-7.
+
+IN1 The study describes an algorithm or technique to support resource allocation in the context of business processes.
+EX1 The study provides exclusively a survey on topics related to resources or business processes.
+EX2 The study is not written in English.
+EX3 The study is not published in a peer-reviewed journal.
+EX3 The study focuses only on modeling resources or resource analysis.
+EX4 The study focuses only on scheduling/planning of activities.
+EX5 The study focuses on the design, configuration, or application of an ERP system.
+EX6 The study only describes a resource allocation approach for one specific use case.
+EX7 The study describes an approach for allocating complete business process instances for their execution in an
+execution environment, such that a process instance is considered as an entire block and not as a set of related
+tasks (for instance, some studies on executing process instances in the cloud, like [57]).
+
+
+[[3]] Data extraction strategy
+• Year, Country
+• Allocation capability (1-to-1, 1-to-m, m-to-1, m-to-n)
+• Resource type (active vs. passive)
+• Local vs. global optimization
+• Allocation goal and constraints
+• Task and resource attributes
+• Usage of process model/data
+• Solution technique
+• Type of evaluation (none, simulation experiments, experiments with real-world data, case study etc.)
+• Prototype (available, only pseudocode, etc.)
+
+
+<Step 3:Validate review protocol>
+[[1]]
+Polit run and protocol revision:
+In some preceding searches, we have observed that the defined search led to an enormous set of resulting studies. This set included a high proportion of short conference papers. Thus, we decided to focus on journal papers and filtered for such articles at databases.
+
+Phase 2: Conduct Review
+
+
+<Step 1: Identify relevant research>
+
+
+
+
+SURVEY CONCLUSION/NOTICABLE TRENDS:
+Some open research topics still exist:
+(1) process data could be more leveraged to ensure evidenced-based resource allocation decisions
+(2) the variability of approaches could be increased to be applicable in different use cases
+(3) machine learning could be more leveraged to provide context-specific solution approaches
+(4) evaluations and availability of research prototypes could be extended to improve the understanding of usefulness and applicability of approaches. 
+
+In the future, we plan to establish a benchmarking platform for resource allocation approaches for allowing better comparisons on the functionality and complexity of the approaches.
+
+
+
+Existing strategies:
+1.Role and logic programming
+2.Heuristics
+3.Linear Programming
+3.Machine Learning
+Scope: local vs. global optimizations
+
+
+
+categorization ideas:
+
+
+
+Conslusions from papers for my own RQ:
+
+Optimizing Resource Allocation Based on Predictive Process Monitoring:
+psudocode algorithm + artificial experiment and real-life experiment at hospital, aims at optimize schedules. Overall 9.6% improvement in comparison to a baseline approach.
+Quality: high
+
+Research on Project Group Human Resource Allocation of Construction Enterprises Based on Decision Tree Algorith：
+Approach: collect human resource data -> store in human resource warehouse -> implement HR recommendation through decision tree
+Graph algorithm is provided
+No experiment, comparison or pesudocode.
+Quality: low
+
+Construction of Human Resource Allocation Model Based on Apriori Algorithm:
+Data mining and Apriori algorithm to design a Management system. Only graphs are provided. No pseudo code, experiment etc. 
+Quality: low
+
+Human Resource Allocation to the Credit Requirement Process, A Process Mining Approach:
+Fitness function, LIFO approach, TOC combined in process mining, detailed data, pesudo-experiment
+Quality: medium+
+
+Human Resource Intelligent Scheduling Algorithm Based on Decision Tree Algorithm:
+Decision tree(Machine learning), 50-peson enterprise simulation with project teams, improve overall cycle by ~25% in comparison to regular scheduling period
+Quality: medium++
+
+Design and Implementation of Enterprise Resource Planning Management System:
+EPRM System design, not too relevant, only structured graphs are provided. 
+Quality: low
+
+Program for the Task Allocation Model: Integrating Workforce Planning for Manpower Utilization at City of Cabuyao Engineering Office:
+Real-life questionaire and analysis at city engineering office, visual basic app but not openly available
+Quality: medium-
+
+Optimization of the Recruitment Quota Allocation in Intra-Organizational Networks
+Recruitment quota allocation with Markov decision process approach, simulation of of university recruitment with specific numbers of requirement, quotas and times. Very detailed mathematical induction process is provided, results are well presented in the form of charts.
+Quality: high
+
+Multi-Skills Resource Constrained and Personality Traits Based Project Scheduling:
+Software project scheduling considering resource, project scope, budget, and requirements. Math induction process and algorithm pseudocode for both project, tasks scheduling and resource assignment are provided. Baseline simulation of 50 projects are conducted.  

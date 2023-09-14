@@ -1,0 +1,72 @@
+1.A Spatial Decision Support System for Prioritizing Repair Interventions on Power Networksi: High
+
+2.(ACM) Why didn’t you allocate this task to them?’ Negotiation-Aware
+Task Allocation and Contrastive Explanation Generation: High
+
+3.Design of human resource allocation algorithm based on
+improved random forest: medium (ACM)
+
+5. Multi-Skills Resource Constrained and Personality Traits Based Project Scheduling: High
+
+6.Experimental Verification on Human-Centric Network-Based Resource Allocation Approaches for Process-Aware Information Systems: high
+
+7.A Disruptive Decision Support Platform
+for Reengineering the Strategic
+Transfer of Employees:low
+
+8.Group-Oriented Task Allocation for Crowdsourcing
+in Social Networks: medium
+
+9.Enabling Workforce Optimization in Constrained
+Attribute-Based Access Control Systems:low
+
+10.Optimization of the Recruitment Quota Allocation in Intra-Organizational Networks:low
+
+[conferences]
+11.Research on Project Group Human Resource
+Allocation of Construction Enterprises Based on
+Decision Tree Algorithm: low
+
+12.Construction of Human Resource Allocation Model Based on Apriori Algorithm: medium
+
+13.Human Resource Allocation to the Credit 
+Requirement Process, A Process Mining Approach :high
+
+14.Human Resource Intelligent Scheduling Algorithm 
+Based on Decision Tree Algorithm: high
+
+15.Design and Implementation of Enterprise Resource Planning Management System: medium
+
+16.
+Program for the Task Allocation Model: Integrating Workforce Planning for Manpower Utilization at City of Cabuyao Engineering Office:high
+
+17.PM4SOS: low-effort resource allocation
+optimization in a dynamic environment: medium
+
+18.Supervised machine learning to allocate emergency 
+department resources in disaster situations: high
+
+19.Dynamic Resource Allocation Considering 
+Ergonomics in Intralogistics: medium
+
+20.A Mixed-Integer Linear Programming Formulation for Human
+Multi-Robot Task Allocation: medium
+
+21. Research on the optimization of rural e-commerce human resources based on big data: high
+
+22.An Enterprise Human Resource Allocation Management Model Based on CMMI: low
+
+23.Human Resource Allocation Method Based on Multi Objective Optimizatiom: medium
+
+24.Research on dynamic allocation of human resources based on Improved Ant Colony Optimization: medium
+
+25.Resource Optimization in Business Processes: low
+
+26.Design of Intelligent Information Platform for Human 
+Resource Allocation Based on Fuzzy Data Mining 
+Algorithm: medium
+
+[some articles are extracted after reading because they are off topic: redeployment of employees]
+1.Optimization of the Recruitment Quota Allocation in Intra-Organizational Networks: not really relevant to human resource allocation in the business process
+2.Design and Implementation of Enterprise Resource Planning Management System: only flow chart is proposed, no algorithm and any statistics
+

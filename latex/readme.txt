@@ -6,15 +6,16 @@ other proceedings book series.
 
 It consists of the following files:
 
-  readme.txt         this file
+  readme.txt                             this file
 
-  history.txt        the version history of the package
+  history.txt                            the version history of the package
 
-  llncs.cls          the LaTeX2e document class
+  llncs.cls                              the LaTeX2e document class
 
-  samplepaper.tex    a sample paper
-  fig1.eps           a figure used in the sample paper
+  human-resource-allocation.tex          the paper
 
-  llncsdoc.pdf       the documentation of the class (PDF version)
+  fig1.eps                               a figure used in the sample paper
 
-  splncs04.bst       current LNCS BibTeX style with alphabetic sorting
+  llncsdoc.pdf                           the documentation of the class (PDF version)
+
+  splncs04.bst                           current LNCS BibTeX style with alphabetic sorting
